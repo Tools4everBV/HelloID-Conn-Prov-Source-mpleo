@@ -1,0 +1,53 @@
+[
+    {
+        "key": "BaseUrl",
+        "type": "input",
+        "templateOptions": {
+            "label": "BaseUrl",
+            "placeholder": "https://demoapi.mpleo.net/ws/",
+            "description": "The BaseUrl to the MPLEO environment",
+            "required": true
+        }
+    },
+    {
+        "key": "Username",
+        "type": "input",
+        "templateOptions": {
+            "label": "Username",
+            "placeholder": "",
+            "description": "AccountName for the MPLEO environment. This will be provided by ADP",
+            "required": true
+        }
+    },
+    {
+        "key": "password",
+        "type": "input",
+        "defaultValue": "",
+        "templateOptions": {
+            "label": "Example password",
+            "type": "password",
+            "placeholder": "Please enter a password",
+            "required": false
+        }
+    },
+    {
+        "key": "daysBeforeStartContract",
+        "type": "input",
+        "templateOptions": {
+            "label": "daysBeforeStartContract",
+            "placeholder": "",
+            "description": "Contracts will be imported X days before start contract",
+            "required": true
+        }
+    },
+    {
+        "key": "daysAfterEndContract",
+        "type": "input",
+        "templateOptions": {
+            "label": "daysAfterEndContract",
+            "placeholder": "",
+            "description": "Contracts will be imported X days after end contract",
+            "required": true
+        }
+    }
+]
