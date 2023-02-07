@@ -5,7 +5,7 @@
         "templateOptions": {
             "label": "BaseUrl",
             "placeholder": "https://demoapi.mpleo.net/ws/",
-            "description": "The BaseUrl to the MPLEO environment",
+            "description": "The BaseUrl to the mpleo environment",
             "required": true
         }
     },
@@ -13,25 +13,24 @@
         "key": "Username",
         "type": "input",
         "templateOptions": {
-            "label": "Username",
-            "placeholder": "",
-            "description": "AccountName for the MPLEO environment. This will be provided by ADP",
+            "label": "UserName",
+            "description": "AccountName for the mpleo environment.",
             "required": true
         }
     },
     {
-        "key": "password",
+        "key": "Password",
         "type": "input",
         "defaultValue": "",
         "templateOptions": {
-            "label": "Example password",
+            "label": "Password",
             "type": "password",
             "placeholder": "Please enter a password",
             "required": false
         }
     },
     {
-        "key": "daysBeforeStartContract",
+        "key": "DaysBeforeStartContract",
         "type": "input",
         "templateOptions": {
             "label": "daysBeforeStartContract",
@@ -41,7 +40,7 @@
         }
     },
     {
-        "key": "daysAfterEndContract",
+        "key": "DaysAfterEndContract",
         "type": "input",
         "templateOptions": {
             "label": "daysAfterEndContract",
